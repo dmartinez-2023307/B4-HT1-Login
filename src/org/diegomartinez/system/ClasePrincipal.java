@@ -30,3 +30,9 @@ public class ClasePrincipal extends Application {
     }
     
 }
+
+// LA PEOPLE ANDA ACTIVA ALLA EN CULIACAN
+/**
+ * DICEN QUE HAY POLVOS QUE NO SE OLVIDAN Y YO VOYU A SERT TU ANTOJO DE POR VIDA
+ * 
+ */
