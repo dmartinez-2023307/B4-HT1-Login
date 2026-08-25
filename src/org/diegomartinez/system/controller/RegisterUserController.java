@@ -29,6 +29,10 @@ public class RegisterUserController implements Initializable{
         viewFacto.viewLogin();
     }
     
+    @FXML
+    public void onCreateUser(MouseEvent event){
+        
+    }
     
     
     
