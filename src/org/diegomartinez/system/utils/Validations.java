@@ -44,14 +44,13 @@ public class Validations {
             }
         //VALIDA LA EXISTENCIA DE SOLO UN UNICO ARROBA
         for (int index = 0; index < email.length(); index++){
-            if(email.charAt(index) == '@'){
+            if(email.charAt(index)== '@')
                 arrobeCount++;
+
             }
-            if(arrobeCount !=1)
+        if(arrobeCount != 1 )
                 return false;
-            }
         return true;
         }
-    
 
     }

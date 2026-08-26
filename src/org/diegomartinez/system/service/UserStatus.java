@@ -8,6 +8,10 @@ package org.diegomartinez.system.service;
  *
  * @author informatica
  */
-public class UserStatus {
+public enum UserStatus {
     
+    USER_CREATED,
+    ERROR_USER_CREATE,
+    FIELDS_EMPTY, // CAMPOS VACIOS
+    VALUE_LENGTH_INVALID // LONGITUD DEL VALOR INVALIDO
 }
