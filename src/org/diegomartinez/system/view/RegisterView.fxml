@@ -13,8 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" spacing="10.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegomartinez.system.controller.RegisterUserController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" spacing="10.0" stylesheets="@../resources/styles/RegisterUserStyles.css" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegomartinez.system.controller.RegisterUserController">
    <padding>
       <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
    </padding>
@@ -46,7 +45,7 @@
             <Label text="Confirmar Contraseña:" GridPane.rowIndex="5" />
             <TextField fx:id="txtUser" GridPane.columnIndex="1" />
             <TextField fx:id="txtName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="txtLastName" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txtLastName" stylesheets="@../resources/styles/RegisterUserStyles.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="txtEmail" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <PasswordField fx:id="pwdPassword" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <PasswordField fx:id="pwdConfirmPassword" GridPane.columnIndex="1" GridPane.rowIndex="5" />
