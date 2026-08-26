@@ -8,7 +8,6 @@
  * @author informatica
  */
 
-
 package org.diegomartinez.system.utils;
 
 import javafx.scene.control.Alert;
