@@ -4,10 +4,12 @@
  */
 package org.diegomartinez.system.repository;
 
+import org.diegomartinez.system.model.Users;
+
 /**
  *
  * @author diego
  */
 public interface UserInterface {
-    
+    void create(Users user);
 }
