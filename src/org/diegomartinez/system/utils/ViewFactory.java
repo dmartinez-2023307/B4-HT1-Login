@@ -58,7 +58,7 @@ public class ViewFactory {
             }
             SceneManager.getInstanciaSceneManager().changeScene(scene);
         } catch (NullPointerException objetoNUlo) {
-            //Alert 
+             
             System.out.println("error load scene");
         }
     }
