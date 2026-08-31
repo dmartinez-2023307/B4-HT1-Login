@@ -26,6 +26,6 @@ Delimiter $$
         values(name_p, lastname_p, email_p, user_p, password_p, uuid());
     end$$
 delimiter ; 
-call sp_create_users ("a", "a", "a@", "a", "a12345");
+
  
 select * from Users;
